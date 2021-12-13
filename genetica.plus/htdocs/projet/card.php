@@ -632,11 +632,11 @@ if ($action == 'create' && $user->rights->projet->creer)
 		print '</tr>';
 
 		// Opportunity probability
-		print '<tr class="classuseopportunity"><td>'.$langs->trans("OpportunityProbability").'</td>';
-		print '<td><input size="5" type="text" id="opp_percent" name="opp_percent" value="'.dol_escape_htmltag(GETPOSTISSET('opp_percent') ? GETPOST('opp_percent') : '').'"><span class="hideonsmartphone"> %</span>';
-		print '<input type="hidden" name="opp_percent_not_set" id="opp_percent_not_set" value="'.dol_escape_htmltag(GETPOSTISSET('opp_percent') ? '0' : '1').'">';
-		print '</td>';
-		print '</tr>';
+		//print '<tr class="classuseopportunity"><td>'.$langs->trans("OpportunityProbability").'</td>';
+		//print '<td><input size="5" type="text" id="opp_percent" name="opp_percent" value="'.dol_escape_htmltag(GETPOSTISSET('opp_percent') ? GETPOST('opp_percent') : '').'"><span class="hideonsmartphone"> %</span>';
+		//print '<input type="hidden" name="opp_percent_not_set" id="opp_percent_not_set" value="'.dol_escape_htmltag(GETPOSTISSET('opp_percent') ? '0' : '1').'">';
+		//print '</td>';
+		//print '</tr>';
 
 		// Opportunity amount
 		print '<tr class="classuseopportunity"><td>'.$langs->trans("OpportunityAmount").'</td>';
@@ -645,9 +645,9 @@ if ($action == 'create' && $user->rights->projet->creer)
 	}
 
 	// Budget
-	print '<tr><td>'.$langs->trans("Budget").'</td>';
-	print '<td><input size="5" type="text" name="budget_amount" value="'.dol_escape_htmltag(GETPOSTISSET('budget_amount') ? GETPOST('budget_amount') : '').'"></td>';
-	print '</tr>';
+	//print '<tr><td>'.$langs->trans("Budget").'</td>';
+	//print '<td><input size="5" type="text" name="budget_amount" value="'.dol_escape_htmltag(GETPOSTISSET('budget_amount') ? GETPOST('budget_amount') : '').'"></td>';
+	//print '</tr>';
 
 	// Description
 	print '<tr><td class="tdtop">'.$langs->trans("Description").'</td>';
