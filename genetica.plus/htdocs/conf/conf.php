@@ -5,7 +5,7 @@
 // Take a look at conf.php.example file for an example of conf.php file
 // and explanations for all possibles parameters.
 //
-$dolibarr_main_url_root='http://192.168.0.120:8888/genetica.plus/htdocs';
+//$dolibarr_main_url_root='http://192.168.0.120:8888/genetica.plus/htdocs';
 $dolibarr_main_document_root='C:/xampp/htdocs/genetica.plus/htdocs';
 $dolibarr_main_url_root_alt='/custom';
 $dolibarr_main_document_root_alt='C:/xampp/htdocs/genetica.plus/htdocs/custom';
